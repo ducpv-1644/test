@@ -1,13 +1,5 @@
-asda
-sd a
-a
-sd 
-as
-d 
-as
- d
-as 
+import re
 
-as
-d
-
+commit = '#REDMINE-33'
+commit = re.split("-", commit)
+print(commit)
